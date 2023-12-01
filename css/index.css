@@ -1,0 +1,164 @@
+@import url('https://fonts.cdnfonts.com/css/rubik');
+@import url('https://fonts.cdnfonts.com/css/pt-sans-2');
+@import url('https://fonts.cdnfonts.com/css/barlow');
+
+body {
+    overflow: hidden;
+}
+
+.navbar {
+    padding: 10px 0px 10px 0px;
+    background-color: #009688;
+
+    .navbar-brand {
+        font-family: 'Rubik';
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0px 0px 0px 10px;
+        color: #fff;
+    }
+}
+
+.login {
+    position: relative;
+    top: 60px;
+    padding: 30px 0px 2000px 0px;
+
+    .log-title {
+        font-family: 'Rubik';
+        font-weight: 700;
+        font-size: 20px;
+        margin: 0px;
+    }
+
+    .log-text {
+        font-family: 'PT sans';
+        font-size: 15px;
+        font-weight: 400;
+        margin: 0px 0px 25px 0px;
+    }
+
+    .log-link {
+        text-decoration: none;
+        color: #c64543;
+    }
+
+    .log-link:hover {
+        color: #e0423f;
+    }
+
+    .log-form-area {
+        padding: 30px;
+        border: 1px solid;
+        border-radius: 10px;
+        border-color: #00000044;
+    }
+
+    .form-control {
+        font-family: 'PT sans';
+        font-size: 15px;
+        border-radius: 3px;
+        border-color: #00000044;
+    }
+
+    .log-btn-control {
+        margin-top: 30px;
+    }
+
+    .log-btn {
+        font-family: 'Barlow';
+        font-size: 15px;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 5px 50px 4px 50px;
+        border: none;
+        border-radius: 3px;
+        color: #fff;
+        background-color: #51666C;
+    }
+
+    .log-btn:hover {
+        transition: 0.3s;
+        background-color: #009688;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 990px) {
+    .navbar {
+        padding: 5px 0px 5px 0px;
+        background-color: #009688;
+
+        .container-fluid {
+        justify-content: center;    
+        }
+
+        .navbar-brand {
+            font-family: 'Rubik';
+            font-size: 25px;
+            margin: 0px;
+            color: #fff;
+        }
+    }
+
+    .login {
+        position: relative;
+        top: 57px;
+        padding: 30px 40px;
+    
+        .log-title {
+            font-family: 'Rubik';
+            font-size: 20px;
+            font-weight: 700;
+            margin: 0px;
+        }
+    
+        .log-text {
+            font-family: 'Rubik';
+            font-size: 15px;
+            font-weight: 400;
+            margin: 0px 0px 25px 0px;
+        }
+    
+        .log-link {
+            text-decoration: none;
+            color: #c64543;
+        }
+    
+        .log-link:hover {
+            color: #e0423f;
+        }
+    
+        .log-form-area {
+            padding: 30px;
+            border: 1px solid;
+            border-color: #00000044;
+        }
+    
+        .form-control {
+            font-family: 'PT Sans';
+            font-size: 15px;
+            border-radius: 3px;
+            border-color: #00000044;
+        }
+    
+        .log-btn-control {
+            margin-top: 30px;
+        }
+    
+        .log-btn {
+            font-family: 'Barlow';
+            font-size: 15px;
+            text-decoration: none;
+            padding: 5px 35px 4px 35px;
+            border: none;
+            border-radius: 3px;
+            color: #fff;
+            background-color: #51666C;
+        }
+    
+        .log-btn:hover {
+            transition: 0s;
+            background-color: #009688;
+        }
+    }
+}

@@ -1,0 +1,702 @@
+@import url('https://fonts.cdnfonts.com/css/rubik');
+@import url('https://fonts.cdnfonts.com/css/pt-sans-2');
+@import url('https://fonts.cdnfonts.com/css/barlow');
+
+.navbar {
+    padding: 10px 0px 10px 0px;
+    background-color: #009688;
+
+    .navbar-brand {
+        font-family: 'Rubik';
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0px 0px 0px 10px;
+        color: #fff;
+    }
+
+    .nav-icon {
+        width: 17px;
+        height: 17px;
+        margin: 0px 7px 4px 0px;
+    }
+
+    .nav-item {
+        margin-right: 15px;
+    }
+
+    .nav-link {
+        font-family: 'Rubik';
+        font-size: 14px;
+        text-transform: uppercase;
+        opacity: 75%;
+        color: #fff;
+    }
+
+    .nav-link:hover {
+        opacity: 100%;
+    }
+
+    .aktif {
+        opacity: 100%;
+    }
+
+    .nav-link-drop {
+        font-family: 'Rubik';
+        font-size: 14px;
+        text-transform: uppercase;
+        text-decoration: none;
+        opacity: 75%;
+        color: #fff;
+    }
+
+    .nav-link-drop:hover {
+        opacity: 100%;
+    }
+
+    .nav-link-drop-aktif {
+        font-family: 'Rubik';
+        font-size: 14px;
+        text-transform: uppercase;
+        text-decoration: none;
+        opacity: 100%;
+        color: #fff;
+    }
+
+    .dropdown {
+        margin: 0px;
+    }
+
+    .drop-1 {
+        margin: 5px 0px 0px 0px;
+    }
+
+    .drop-2 {
+        margin: 5px 11px 0px 23px;
+    }
+
+    .dropdown-menu {
+        font-family: 'Rubik';
+        font-size: 13px;
+        text-transform: uppercase;
+        border-radius: 3px;
+    }
+
+    .drop-item {
+        text-decoration: none;
+        padding: 0px 10px;
+        color: #000;
+    }
+
+    .drop-item:hover {
+        color: #e0423f;
+    }
+
+    .drop-item-aktif {
+        text-decoration: none;
+        padding: 0px 10px;
+        color: #e0423f;
+    }
+
+    .nav-btn {
+        text-decoration: none;
+        padding: 7px 7px 7px 6px;
+        border-radius: 50%;
+        border: 1px solid;
+        border-color: #c64543;
+        background-color: #c64543;
+    }
+
+    .nav-btn:hover {
+        transition: 0.3s;
+        border-color: #e0423f;
+        background-color: #e0423f;
+    }
+
+    .nav-btn-control {
+        margin-top: 6px;
+    }
+
+    .nav-icon-btn {
+        width: 23px;
+        height: 23px;
+        margin: 0px 0px 5px 0px;
+    }
+
+    .nav-btn-control-2 {
+        display: none;
+    }
+
+    .offcanvas {
+        background-color: #000;
+    }
+
+    .offcanvas-body {
+        margin-right: -20px;
+    }
+
+}
+
+.struktur-kelas {
+    position: relative;
+    top: 60px;
+    padding: 30px;
+
+    .sk-title-area {
+        margin: 30px 0px 30px 0px;
+    }
+
+    .sk-title {
+        font-family: 'Rubik';
+        font-size: 45px;
+        font-weight: 700;
+        margin: 0px;
+    }
+
+    .sk-sub-title {
+        font-family: 'PT sans';
+        font-size: 15px;
+        margin: 0px;
+    }
+
+    .sk-row-area-1 {
+        margin: 0px;
+    }
+
+    .sk-card-area {
+        padding: 15px;
+        border: 1px solid;
+        border-radius: 5px;
+        border-color: #00000044;
+    }
+
+    .sk-card-title {
+        margin: 15px 0px 0px 0px;
+        padding: 0px;
+    }
+
+    .sk-card-info {
+        text-transform: uppercase;
+        font-family: 'Rubik';
+        font-weight: 700;
+        font-size: 15px;
+        margin: 0px 0px 15px 0px;
+    }
+
+    .sk-card-head {
+        text-transform: uppercase;
+        font-family: 'Rubik';
+        font-weight: 700;
+        font-size: 15px;
+        margin: 0px;
+    }
+
+    .sk-card-text {
+        text-transform: uppercase;
+        font-family: 'PT sans';
+        font-size: 15px;
+        margin: 0px;
+    }
+
+    .sk-row-area-2 {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .sk-card-area-2 {
+        padding: 15px;
+        border: 1px solid;
+        border-radius: 5px;
+        margin: 30px 15px 0px 15px;
+        border-color: #00000044;
+    }
+
+    .sk-card-line {
+        margin: 15px 0px 15px 0px;
+    }
+
+    .sk-set-area {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .sk-set-edit {
+        transition: 0.3s;
+        padding: 2px 5px 2px 5px;
+        border-radius: 50%;
+        background-color: #51666C;
+    }
+
+    .sk-set-edit:hover {
+        transition: 0.3s;
+        background-color: #009688;
+    }
+
+    .sk-set-hapus {
+        transition: 0.3s;
+        padding: 2px 5px 2px 5px;
+        border-radius: 50%;
+        background-color: #c64543;
+    }
+
+    .sk-set-hapus:hover {
+        transition: 0.3s;
+        background-color: #e0423f;
+    }
+
+    .sk-set-icon {
+        width: 15px;
+        height: 15px;
+        margin: 0px 0px 5px 0px;
+    }
+
+    .sk-set-edit-pro {
+        transition: 0.3s;
+        font-family: 'Barlow';
+        font-size: 13px;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 4px 20px 4px 20px;
+        border-radius: 3px;
+        color: #fff;
+        background-color: #51666C;
+    }
+
+    .sk-set-edit-pro:hover {
+        transition: 0.3s;
+        background-color: #009688;
+    }
+
+    .sk-plus-btn{
+        transition: 0.3s;
+        text-decoration: none;
+        font-family: 'Barlow';
+        font-size: 15px;
+        font-weight: 600;
+        padding: 4px 20px 4px 20px;
+        border-radius: 3px;
+        color: #fff;
+        background-color: #51666C;
+    }
+
+    .sk-plus-btn:hover {
+        transition: 0.3s;
+        background-color: #009688;
+    }
+    .dt-alert {
+        padding: 6px 10px 5px 10px;
+        border: 1px solid;
+        border-radius: 5px;
+        border-color: #00000044;
+    }
+
+    .dt-alert-icon {
+        width: 25px;
+        height: 25px;
+        margin: 0px 5px 3px 0px;
+    }
+
+    .dt-alert-text {
+        font-family: 'PT Sans';
+        font-size: 15px;
+        text-transform: uppercase;
+        margin: 0px;
+        opacity: 75%;
+    }
+}
+
+.my-footer {
+    position: relative;
+    top: 90px;
+    padding: 60px;
+    background-color: #424242;
+    color: #fff;
+
+    .head {
+        font-family: 'Rubik';
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0px;
+    }
+
+    .text {
+        font-family: 'PT sans';
+        font-size: 13px;
+        margin: 0px;
+        opacity: 50%;
+    }
+}
+
+@media (min-width: 1px) and (max-width: 990px) {
+    .navbar {
+        padding: 10px 0px 10px 0px;
+        background-color: #000;
+
+        .navbar-brand {
+            font-family: 'WISHFLOW';
+            font-size: 20px;
+            margin-left: 5px;
+            color: #fff;
+        }
+
+        .nav-item {
+            margin: 5px 12px 0px 0px;
+        }
+
+        .nav-link {
+            font-family: 'Arial Rounded MT';
+            font-size: 16px;
+            opacity: 75%;
+            color: #fff;
+        }
+
+        .nav-link:hover {
+            opacity: 100%;
+        }
+
+        .aktif {
+            opacity: 100%;
+        }
+
+        .nav-link-drop {
+            font-size: 16px;
+            text-decoration: none;
+            opacity: 75%;
+            color: #fff;
+        }
+
+        .drop-1 {
+            padding: 5px 0px 15px 0px;
+        }
+
+        .drop-2 {
+            padding: 0px 0px 6px 0px;
+        }
+
+        .nav-link-drop:hover {
+            opacity: 100%;
+        }
+
+        .dropdown {
+            margin: 0px 0px 0px 0px;
+        }
+
+        .dropdown-menu {
+            font-size: 16px;
+            border-radius: 0px;
+        }
+
+        .drop-item {
+            text-decoration: none;
+            padding: 0px 10px;
+            color: #000;
+        }
+
+        .drop-item:hover {
+            color: #e0423f;
+        }
+
+        .drop-item-aktif {
+            color: #e0423f;
+        }
+
+        .nav-btn-2 {
+            font-family: 'Arial MT';
+            font-size: 16px;
+            text-decoration: none;
+            padding: 4px 115px 5px 115px;
+            border-radius: 10px;
+            color: #fff;
+            background-color: #c64543;
+        }
+
+        .nav-btn-2:hover {
+            color: #fff;
+            background-color: #e0423f;
+        }
+
+        .nav-btn-control {
+            display: none;
+        }
+
+        .nav-btn-control-2 {
+            display: block;
+            margin-top: 15px;
+        }
+
+        .offcanvas {
+            background-color: #000;
+        }
+
+        .offcanvas-header {
+            padding-bottom: 0px;
+        }
+
+        .offcanvas-title {
+            font-family: 'Arial Rounded MT Bold';
+            font-size: 18px;
+            margin-top: 4px;
+            color: #fff;
+        }
+
+        .offcanvas-body {
+            margin-right: -20px;
+        }
+
+        .btn-close {
+            margin-right: 5px;
+            opacity: 100%;
+            border: 1px solid;
+            border-radius: 50%;
+            border-color: #c64543;
+            background-color: #c64543;
+        }
+
+        .btn-close:hover {
+            border-color: #e0423f;
+            background-color: #e0423f;
+        }
+    }
+
+    .my-carousel {
+        position: relative;
+        top: 60px;
+
+        .caro-btn-prev {
+            opacity: 100%;
+            width: 20px;
+            height: 20px;
+            transform: rotate(270deg);
+        }
+
+        .caro-btn-next {
+            opacity: 100%;
+            width: 20px;
+            height: 20px;
+            transform: rotate(90deg);
+        }
+
+        .carousel-control-prev {
+            opacity: 100%;
+        }
+
+        .carousel-control-prev:hover {
+            opacity: 75%;
+        }
+
+        .carousel-control-next {
+            opacity: 100%;
+        }
+
+        .carousel-control-next:hover {
+            opacity: 75%;
+        }
+    }
+
+    .wellcome {
+        display: none;
+    }
+
+    .data-kelas {
+        position: relative;
+        top: 60px;
+        padding: 17px 20px 17px 20px;
+
+        .dk-title {
+            font-family: 'Arial MT';
+            font-size: 20px;
+            margin: 5px 0px 0px 0px;
+        }
+
+        .dk-line {
+            display: none;
+        }
+
+        .dk-layer-1 {
+            margin: 0px;
+        }
+
+        .dk-layer-2 {
+            margin: 0px;
+        }
+
+        .dk-area {
+            margin-top: 20px;
+            padding: 15px 0px 15px 0px;
+            border: 1px solid;
+            border-color: #00000044;
+        }
+
+        .dk-icon {
+            width: 50px;
+            height: 50px;
+        }
+
+        .dk-head {
+            font-family: 'Arial MT';
+            font-size: 14px;
+            margin: 15px 0px 0px 0px;
+        }
+
+        .dk-text {
+            font-family: 'Arial Rounded MT';
+            font-size: 13px;
+            padding: 0px 30px 0px 30px;
+            margin: 5px 0px 10px 0px;
+        }
+
+        .dk-btn {
+            font-family: 'Arial MT';
+            font-size: 13px;
+            text-decoration: none;
+            padding: 2px 20px 2px 20px;
+            border-radius: 10px;
+            border: 1px solid;
+            border-color: #c64543;
+            color: #fff;
+            background-color: #c64543;
+        }
+
+        .dk-btn:hover {
+            border-color: #e0423f;
+            background-color: #e0423f;
+        }
+    }
+
+    .galeri {
+        position: relative;
+        top: 80px;
+        padding: 0px;
+        background-color: #fff;
+
+        .gl-control {
+            border: 1px solid;
+            border-color: #00000044;
+            padding: 0px;
+        }
+
+        .gl-m-title {
+            font-family: 'Arial MT';
+            font-size: 20px;
+            margin: 0px 0px 0px 0px;
+        }
+
+        .gl-title {
+            display: none;
+        }
+
+        .gl-head {
+            display: none;
+        }
+
+        .gl-text {
+            font-family: 'Arial Rounded MT';
+            font-size: 15px;
+        }
+
+        .gl-area {
+            padding: 20px 30px;
+        }
+
+        .carousel {
+            display: none;
+        }
+
+        .gl-mobile {
+            display: block;
+        }
+
+        .gl-m-control-img {
+            margin-top: 15px;
+        }
+
+        .gl-btn-control-deks {
+            display: none;
+        }
+
+        .gl-btn-deks {
+            display: none;
+        }
+
+        .gl-btn-control {
+            display: block;
+            padding: 25px 0px 0px 0px;
+        }
+
+        .gl-btn {
+            display: block;
+            font-family: 'Arial MT';
+            font-size: 15px;
+            text-decoration: none;
+            padding: 0px;
+            opacity: 100%;
+            border-radius: 10px;
+            border: none;
+            border-color: transparent;
+            color: #c64543;
+            background-color: transparent;
+        }
+
+        .gl-btn:hover {
+            opacity: 100%;
+            color: #e0423f;
+            border-color: transparent;
+            background-color: transparent;
+        }
+    }
+
+    .kontak {
+        position: relative;
+        top: 80px;
+        padding: 30px;
+
+        .kt-head {
+            font-family: "Arial MT";
+            font-size: 20px;
+            margin: 0px;
+        }
+
+        .kt-text {
+            font-family: 'Arial Rounded MT';
+            font-size: 13px;
+            padding: 0px 10px 0px 10px;
+            margin: 10px 0px 15px 0px;
+        }
+
+        .kt-btn {
+            font-family: 'Arial MT';
+            font-size: 13px;
+            text-decoration: none;
+            padding: 2px 20px 2px 20px;
+            border-radius: 10px;
+            border: 1px solid;
+            border-color: #c64543;
+            color: #fff;
+            background-color: #c64543;
+        }
+
+        .kt-btn:hover {
+            border-color: #e0423f;
+            background-color: #e0423f;
+        }
+    }
+
+    .my-footer {
+        position: relative;
+        top: 80px;
+        padding: 20px;
+        background-color: #000;
+        color: #fff;
+
+        .head {
+            font-family: 'WISHFLOW';
+            font-size: 20px;
+            margin: 0px;
+        }
+
+        .text {
+            font-family: 'Arial Rounded MT';
+            font-size: 13px;
+            margin: 0px;
+            opacity: 50%;
+        }
+    }
+}
